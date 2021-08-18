@@ -27,8 +27,9 @@ mv * /etc/nixos
 
 A partir de este momento, debemos configurar lo que nosotros necesitemos
 
-| Entradas y el nombre del equipo.                      | configuration.nix              |
+| Gestión:                                              | Archivos:                      |
 | ----------------------------------------------------- | ------------------------------ |
+| Entradas y el nombre del equipo.                      | **configuration.nix**          |
 | Puntos de montaje y parámetros del kernel.            | **hardware-configuration.nix** |
 | Versión del kernel, boot, TRIM, vulkan support        | **hardware-specific.nix**      |
 | Fuentes tipográficas, idioma y localidad.             | **langAndTypography.nix**      |
